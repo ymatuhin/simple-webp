@@ -1,47 +1,27 @@
-# webpjs
-[![Build Status][build-image]][build-url]
-[![Code GPA][gpa-image]][gpa-url]
-[![Test Coverage][coverage-image]][coverage-url]
-[![Dependency Status][depstat-image]][depstat-url]
-[![Bower Version][bower-image]][bower-url]
-[![NPM version][npm-image]][npm-url]
-[![IRC Channel][irc-image]][irc-url]
-[![Gitter][gitter-image]][gitter-url]
-[![GitTip][tip-image]][tip-url]
+# Simple-webp
 
 ## About
-
-All about how amazing the webpjs micro-library is.
-
-This repository was scaffolded with [generator-microjs](https://github.com/daniellmb/generator-microjs).
+This micro lib replace images with attr `webp` to webp image if webp supported.
+And if image is loaded — do nothing, else change src to `.webp`.
 
 ## Examples
 
-### JavaScript
+### html
 
-```JavaScript
-  // TODO
+Put in header
+
+```html
+  <script async src="webpjs.min.js"></script>
 ```
 
-### CoffeeScript
+Add webp attr to image which have webp version
 
-```CoffeeScript
-  # TODO
+```html
+  <img src="example.jpg" alt="" webp>
 ```
 
 ## Install Choices
-- `bower install webpjs`
-- [download the zip](https://github.com/ymatuhin/webpjs/archive/master.zip)
-
-## Tasks
-
-All tasks can be run by simply running `gulp` or with the `npm test` command, or individually:
-
-  * `gulp lint` will lint source code for syntax errors and anti-patterns.
-  * `gulp gpa` will analyze source code against complexity thresholds.
-  * `gulp test` will run the jasmine unit tests against the source code.
-  * `gulp test-coffee` will run the jasmine unit tests against the CoffeeScript source code.
-  * `gulp test-min` will run the jasmine unit tests against the minified code.
+- [download the zip](https://github.com/ymatuhin/simple-webp/archive/master.zip)
 
 ## License
 
@@ -67,38 +47,3 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-[build-url]: https://travis-ci.org/ymatuhin/webpjs
-[build-image]: http://img.shields.io/travis/ymatuhin/webpjs.png
-
-[gpa-url]: https://codeclimate.com/github/ymatuhin/webpjs
-[gpa-image]: https://codeclimate.com/github/ymatuhin/webpjs.png
-
-[coverage-url]: https://codeclimate.com/github/ymatuhin/webpjs/code?sort=covered_percent&sort_direction=desc
-[coverage-image]: https://codeclimate.com/github/ymatuhin/webpjs/coverage.png
-
-[depstat-url]: https://david-dm.org/ymatuhin/webpjs
-[depstat-image]: https://david-dm.org/ymatuhin/webpjs.png?theme=shields.io
-
-[issues-url]: https://github.com/ymatuhin/webpjs/issues
-[issues-image]: http://img.shields.io/github/issues/ymatuhin/webpjs.png
-
-[bower-url]: http://bower.io/search/?q=webpjs
-[bower-image]: https://badge.fury.io/bo/webpjs.png
-
-[downloads-url]: https://www.npmjs.org/package/webpjs
-[downloads-image]: http://img.shields.io/npm/dm/webpjs.png
-
-[npm-url]: https://www.npmjs.org/package/webpjs
-[npm-image]: https://badge.fury.io/js/webpjs.png
-
-[irc-url]: http://webchat.freenode.net/?channels=webpjs
-[irc-image]: http://img.shields.io/badge/irc-%23webpjs-brightgreen.png
-
-[gitter-url]: https://gitter.im/ymatuhin/webpjs
-[gitter-image]: http://img.shields.io/badge/gitter-ymatuhin/webpjs-brightgreen.png
-
-[tip-url]: https://www.gittip.com/ymatuhin
-[tip-image]: http://img.shields.io/gittip/ymatuhin.png
