@@ -1,0 +1,45 @@
+{
+  "name": "webpjs",
+  "version": "0.1.0",
+  "description": "webpjs scaffolded with generator-microjs v0.1.2.",
+  "author": {
+    "name": "Yury",
+    "email": "ymatuhin@yandex.ru",
+    "url": "https://github.com/ymatuhin"
+  },
+  "homepage": "https://github.com/ymatuhin/webpjs",
+  "bugs": {
+    "url": "https://github.com/ymatuhin/webpjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://ymatuhin.mit-license.org"
+    }
+  ],
+  "maintainers": [],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ymatuhin/webpjs.git"
+  },
+  "main": "webpjs.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "micro",
+    "framework",
+    "library"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
