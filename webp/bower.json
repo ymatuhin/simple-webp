@@ -1,7 +1,7 @@
 {
-  "name": "webpjs",
+  "name": "simple-webp",
   "version": "0.1.0",
-  "main": "webpjs.js",
+  "main": "dist/simple-webp.js",
   "ignore": [
     ".editorconfig",
     ".gitattributes",
