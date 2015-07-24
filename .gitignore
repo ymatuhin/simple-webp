@@ -71,7 +71,6 @@ bower_components/
 *.log
 
 build/
-dist/
 
 ### This project ###
 .sass-cache/
