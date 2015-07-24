@@ -15,7 +15,7 @@ gulp.task('compress', function () {
 });
 
 gulp.task('copy', ['clean'], function() {
-  return gulp.src('lib/webpjs.js')
+  return gulp.src('lib/simple-webp.js')
     .pipe(gulp.dest('dist'));
 });
 
@@ -25,8 +25,5 @@ gulp.task('clean', function () {
       .pipe(clean());
 });
 
-
 // создаем задачку, которая будет выполняться по умолчанию
-gulp.task('default', ['copy', 'compress'], function() {
-  // return gutil.log('Gulp is running!')
-});
+gulp.task('default', ['copy', 'compress']);
