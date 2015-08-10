@@ -1,15 +1,15 @@
 {
-  "name": "webpjs",
-  "version": "0.1.0",
-  "description": "webpjs scaffolded with generator-microjs v0.1.2.",
+  "name": "simple-webp",
+  "description": "Library for amazing loading webp images",
+  "version": "0.2.0",
   "author": {
     "name": "Yury",
     "email": "ymatuhin@yandex.ru",
     "url": "https://github.com/ymatuhin"
   },
-  "homepage": "https://github.com/ymatuhin/webpjs",
+  "homepage": "https://github.com/ymatuhin/simple-webp",
   "bugs": {
-    "url": "https://github.com/ymatuhin/webpjs/issues"
+    "url": "https://github.com/ymatuhin/simple-webp/issues"
   },
   "licenses": [
     {
@@ -21,9 +21,9 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ymatuhin/webpjs.git"
+    "url": "git://github.com/ymatuhin/simple-webp.git"
   },
-  "main": "webpjs.js",
+  "main": "simple-webp.js",
   "scripts": {
     "test": "gulp"
   },
