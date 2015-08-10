@@ -14,7 +14,7 @@ Put in header
   <script async src="simple-webp.min.js"></script>
 ```
 
-Add webp attr to image which have webp version
+Wrap your image in noscript with data-webp attribute
 
 ```html
   <noscript data-webp><img src="example.jpg" alt=""></noscript>
