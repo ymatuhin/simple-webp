@@ -17,7 +17,7 @@ Put in header
 Add webp attr to image which have webp version
 
 ```html
-  <img src="example.jpg" alt="" data-webp>
+  <noscript data-webp><img src="example.jpg" alt=""></noscript>
 ```
 
 ## Install Choices
