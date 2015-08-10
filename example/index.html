@@ -1,11 +1,16 @@
 <!doctype html>
 <html class="no-webp">
   <title>Simple-webp plugin example</title>
-  <script async src="simple-webp.js"></script>
+  <script src="simple-webp.js"></script>
 
   <h1>Simple-webp plugin example</h1>
 
-  <img src="img/j1.jpg" width="14%" data-webp>
+  <script>
+      function qwe() {
+          alert(1);
+      }
+  </script>
+  <img src="img/j1.jpg" width="14%" data-webp onloadstart="qwe(1)">
   <img src="img/j2.jpg" width="14%" data-webp>
   <img src="img/j3.jpg" width="14%" data-webp>
   <img src="img/p1.png" width="14%" data-webp>
