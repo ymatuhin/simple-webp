@@ -11,7 +11,7 @@ And if image is loaded — do nothing, else change src to `.webp`.
 Put in header
 
 ```html
-  <script async src="webpjs.min.js"></script>
+  <script async src="simple-webp.min.js"></script>
 ```
 
 Add webp attr to image which have webp version
