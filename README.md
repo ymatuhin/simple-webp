@@ -4,9 +4,14 @@
 This micro lib replace images with attr `data-webp` to webp image if webp supported.
 And if image is loaded — do nothing, else change src to `.webp`.
 
-## Examples
+## Usage
 
-### html
+Via Bower
+
+```bash
+bower install simple-webp --save
+```
+or [download the zip](https://github.com/ymatuhin/simple-webp/archive/master.zip).
 
 Put in header
 
@@ -19,9 +24,6 @@ Wrap your image in noscript with data-webp attribute
 ```html
   <noscript data-webp><img src="example.jpg" alt=""></noscript>
 ```
-
-## Install Choices
-- [download the zip](https://github.com/ymatuhin/simple-webp/archive/master.zip)
 
 ## License
 
