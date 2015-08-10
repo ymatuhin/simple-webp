@@ -1,7 +1,7 @@
 # Simple-webp
 
 ## About
-This micro lib replace images with attr `webp` to webp image if webp supported.
+This micro lib replace images with attr `data-webp` to webp image if webp supported.
 And if image is loaded — do nothing, else change src to `.webp`.
 
 ## Examples
@@ -17,7 +17,7 @@ Put in header
 Add webp attr to image which have webp version
 
 ```html
-  <img src="example.jpg" alt="" webp>
+  <img src="example.jpg" alt="" data-webp>
 ```
 
 ## Install Choices
